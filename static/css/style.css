@@ -1,0 +1,419 @@
+/* ===== GENEL AYARLAR ===== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #050608;      /* koyu arka plan */
+    color: #f5f5f5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+}
+
+/* Sayfa başlıkları */
+.page-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #22ff66;
+}
+
+.page-subtitle {
+    color: #aaaaaa;
+    margin-bottom: 20px;
+}
+
+/* Sayfa ana içerik alanı */
+.page-main {
+    max-width: 1200px;
+    margin: 32px auto 64px;
+    padding: 0 24px 40px;
+}
+
+
+/* ===== NAVBAR / HEADER ===== */
+/* NAVBAR GENEL */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* LOGO */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    height: 50px;      /* İstediğin boyut */
+    width: auto;
+    display: block;
+}
+.navbar-links {
+    display: flex;
+    gap: 24px;
+}
+
+/* Linklerin normal hali */
+.navbar-links a {
+    position: relative;          /* alt çizgi animasyonu için */
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 0;              /* biraz dikey boşluk */
+    transition: color 0.2s ease; /* renk yumuşak geçiş */
+}
+
+/* Hover rengi */
+.navbar-links a:hover {
+    color: #22ff66;
+}
+
+/* Alttan çıkan çizgi */
+.navbar-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;                /* yazının biraz altı */
+    width: 0;
+    height: 2px;
+    background-color: #22ff66;
+    border-radius: 999px;
+    transition: width 0.2s ease;
+}
+
+/* Hover’da çizgi genişliyor */
+.navbar-links a:hover::after {
+    width: 100%;
+}
+.site-header {
+    background-color: #050608;
+    border-bottom: 2px solid #f4b000; /* ince sarı çizgi */
+}
+
+/* ===== MOD BUTONLARI (MAP FİLTRE) ===== */
+
+.mode-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.mode-badge {
+    background: #ffcf71;
+    padding: 8px 14px;
+    border-radius: 12px;
+    color: #111;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.mode-badge-active {
+    background: #22ff66;
+}
+
+
+/* ===== MAP GRID & KARTLAR ===== */
+
+.map-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 18px;
+}
+
+/* Tek map kartı */
+.map-card {
+    background: #181b23;
+    border-radius: 14px;
+    padding: 16px;
+    border: 1px solid #262a3b;
+    transition: 0.15s;
+}
+
+.map-card:hover {
+    transform: translateY(-4px);
+    border-color: #22ff66;
+}
+
+.map-title a {
+    text-decoration: none;
+    color: #22ff66;
+}
+
+.map-title a:hover {
+    text-decoration: underline;
+}
+
+/* Map resmi */
+.map-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Detay sayfası kutusu */
+.detail-box {
+    background: #181b23;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #262a3b;
+}
+
+
+/* ===== ANA SAYFA (HOME) ===== */
+
+/* Hero kısmı (sol metin + sağ kutu) */
+.home-hero {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+    align-items: flex-start;
+}
+
+.home-hero-text {
+    flex: 1 1 320px;
+}
+
+/* Hero butonları */
+.home-hero-buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-primary,
+.btn-secondary {
+    padding: 0.7rem 1.6rem;
+    border-radius: 999px;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn-primary {
+    background: #00ff66;
+    color: #050810;
+}
+
+.btn-primary:hover {
+    filter: brightness(1.05);
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 1px solid #888;
+    color: #f5f5f5;
+}
+
+.btn-secondary:hover {
+    background: #222;
+}
+
+/* Sağdaki küçük meta kutusu */
+.home-hero-box {
+    flex: 0 1 340px;
+    background: #101522;
+    border-radius: 16px;
+    padding: 1.2rem 1.4rem;
+    border: 1px solid #333;
+}
+
+.home-hero-box-title {
+    font-weight: 600;
+    color: #00ff66;
+    margin-bottom: 0.8rem;
+}
+
+.home-hero-box ul {
+    padding-left: 1.1rem;
+    margin: 0 0 0.8rem 0;
+}
+
+.home-hero-box li {
+    margin-bottom: 0.4rem;
+}
+
+.home-hero-mini {
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+
+/* ===== İSTATİSTİK KARTLARI ===== */
+
+.home-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.home-stat-card {
+    background: #101522;
+    border-radius: 16px;
+    padding: 1.2rem 1.4rem;
+    border: 1px solid #262a38;
+}
+
+.home-stat-label {
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+.home-stat-value {
+    display: block;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-top: 0.3rem;
+    color: #00ff66;
+}
+
+.home-stat-desc {
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+    color: #ccc;
+}
+
+
+/* ===== HIZLI BAŞLA KARTLARI ===== */
+
+.home-section-title {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.home-quick-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+}
+
+.home-quick-card {
+    background: #101522;
+    border-radius: 16px;
+    padding: 1rem 1.2rem;
+    border: 1px solid #262a38;
+    text-decoration: none;
+    color: #f5f5f5;
+    transition:
+        transform 0.1s ease,
+        box-shadow 0.1s ease,
+        border-color 0.1s ease;
+}
+
+.home-quick-card h3 {
+    margin-bottom: 0.4rem;
+}
+
+.home-quick-card p {
+    font-size: 0.9rem;
+    color: #c0c0c0;
+}
+
+.home-quick-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.5);
+    border-color: #00ff66;
+}
+/* --- Theme Switch Wrapper --- */
+.theme-toggle-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 12px;
+}
+
+.theme-icon {
+    font-size: 14px;
+}
+
+/* --- Switch (Slider) --- */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 22px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #333;
+    transition: 0.2s;
+    border-radius: 999px;
+}
+
+.slider::before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 3px;
+    top: 3px;
+    background-color: #f5f5f5;
+    transition: 0.2s;
+    border-radius: 50%;
+}
+
+/* Checkbox işaretliyken (light mode) */
+.switch input:checked + .slider {
+    background-color: #22ff66;
+}
+
+.switch input:checked + .slider::before {
+    transform: translateX(18px);
+}
+
+/* --- Light Mode --- */
+.light-mode {
+    background: #f5f5f5 !important;
+    color: #111 !important;
+}
+
+.light-mode .site-header {
+    background: #ffffff !important;
+    border-bottom: 2px solid #f4b000;
+}
+
+.light-mode .navbar-links a {
+    color: #111 !important;
+}
+
+.light-mode .navbar-links a:hover {
+    color: #22cc55 !important;
+}
+
+.light-mode .theme-icon {
+    color: #111;
+}
+
+.light-mode .map-card,
+.light-mode .home-hero-box,
+.light-mode .home-stat-card {
+    background: #ffffff !important;
+    border: 1px solid #ddd !important;
+    color: #111 !important;
+}

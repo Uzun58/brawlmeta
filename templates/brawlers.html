@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block title %}Brawl Meta – Brawlers{% endblock %}
+
+{% block content %}
+
+<h1 class="page-title">Brawl Stars Brawlers</h1>
+<p class="page-subtitle">
+    Tüm brawler'ların rolleri, nadirlikleri ve en iyi build'leri.
+</p>
+
+<!-- Nadirlik FİLTRESİ -->
+<div class="mode-badges">
+    <a href="{{ url_for('brawlers') }}"
+       class="mode-badge{% if not selected_rarity %} mode-badge-active{% endif %}">
+        Tüm Nadirlikler
+    </a>
+
+    <a href="{{ url_for('brawlers', rarity='Common') }}"
+       class="mode-badge{% if selected_rarity == 'Common' %} mode-badge-active{% endif %}">
+        Common
+    </a>
+
+    <a href="{{ url_for('brawlers', rarity='Rare') }}"
+       class="mode-badge{% if selected_rarity == 'Rare' %} mode-badge-active{% endif %}">
+        Rare
+    </a>
+
+    <a href="{{ url_for('brawlers', rarity='Super Rare') }}"
+       class="mode-badge{% if selected_rarity == 'Super Rare' %} mode-badge-active{% endif %}">
+        Super Rare
+    </a>
+
+    <a href="{{ url_for('brawlers', rarity='Epic') }}"
+       class="mode-badge{% if selected_rarity == 'Epic' %} mode-badge-active{% endif %}">
+        Epic
+    </a>
+
+    <a href="{{ url_for('brawlers', rarity='Mythic') }}"
+       class="mode-badge{% if selected_rarity == 'Mythic' %} mode-badge-active{% endif %}">
+        Mythic
+    </a>
+
+    <a href="{{ url_for('brawlers', rarity='Legendary') }}"
+       class="mode-badge{% if selected_rarity == 'Legendary' %} mode-badge-active{% endif %}">
+        Legendary
+    </a>
+
+    <a href="{{ url_for('brawlers', rarity='Ultra-Legendary') }}"
+       class="mode-badge{% if selected_rarity == 'Ultra-Legendary' %} mode-badge-active{% endif %}">
+        Ultra-Legendary
+    </a>
+</div>
+
+<div class="map-grid">
+    {# BURADAN SONRA b DEĞİŞKENİ VAR #}
+    {% for b in brawlers %}
+    <div class="map-card">
+
+        {% if b.image %}
+        <img src="{{ url_for('static', filename='images/brawlers/' ~ b.image) }}"
+             class="map-img">
+        {% endif %}
+
+        <h2 class="map-title">
+            <a href="{{ url_for('brawler_detail', slug=b.slug) }}">
+                {{ b.name }}
+            </a>
+        </h2>
+
+        <p><strong>Rarity:</strong> {{ b.rarity }}</p>
+
+        {% if b.role %}
+        <p><strong>Role:</strong> {{ b.role }}</p>
+        {% endif %}
+
+        <p><strong>En iyi build:</strong> {{ b.best_build }}</p>
+
+        <p><strong>En iyi modlar:</strong>
+            {{ b.best_modes | join(", ") }}
+        </p>
+
+        <p style="margin-top:10px; color:#ccc;">
+            {{ b.description }}
+        </p>
+
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

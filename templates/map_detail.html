@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}{{ map.name }} – Brawl Meta{% endblock %}
+
+{% block content %}
+
+    <p>
+        <a href="/maps" class="simple-link">← Haritalara geri dön</a>
+    </p>
+
+    <div class="detail-box">
+        <h1 class="page-title">{{ map.name }}</h1>
+        <p class="page-subtitle">
+            Oyun modu: <strong>{{ map.mode }}</strong>
+        </p>
+
+        <h2 style="color:#22ff66; margin-top:20px;">En iyi brawlerlar</h2>
+        <ul>
+            {% for b in map.best_brawlers %}
+                <li>{{ b }}</li>
+            {% endfor %}
+        </ul>
+
+        <h2 style="color:#22ff66; margin-top:20px;">Harita açıklaması</h2>
+        <p>{{ map.description }}</p>
+    </div>
+
+{% endblock %}
+          

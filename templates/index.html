@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block title %}BrawlMeta – Ana Sayfa{% endblock %}
+
+{% block content %}
+
+<div class="home-hero">
+    <div class="home-hero-text">
+        <h1 class="page-title">Hoş geldin XImaruu! 👋</h1>
+        <p class="page-subtitle">
+            Brawl Stars haritaları, brawler’lar ve en iyi build’ler için kendi meta siteni kuruyorsun.
+        </p>
+
+        <div class="home-hero-buttons">
+            <a href="{{ url_for('maps') }}" class="btn-primary">
+                Harita listesine git
+            </a>
+            <a href="{{ url_for('brawlers') }}" class="btn-secondary">
+                Brawler rehberine bak
+            </a>
+        </div>
+    </div>
+
+    <div class="home-hero-box">
+        <p class="home-hero-box-title">Bugünün hızlı bakışı</p>
+        <ul>
+            <li>🔥 Showdown için: <strong>Leon</strong>, <strong>Crow</strong>, <strong>Buzz</strong></li>
+            <li>⚽ Brawl Ball için: <strong>Kenji</strong>, <strong>Fang</strong>, <strong>Sam</strong></li>
+            <li>💎 Gem Grab için: <strong>Ruffs</strong>, <strong>Max</strong>, <strong>Meeple</strong></li>
+        </ul>
+        <p class="home-hero-mini">
+            Detaylı build’ler için <a href="{{ url_for('brawlers') }}">brawler sayfasını</a> ziyaret et.
+        </p>
+    </div>
+</div>
+
+<div class="home-stats">
+    <div class="home-stat-card">
+        <span class="home-stat-label">Brawler sayısı</span>
+        <span class="home-stat-value">96+</span>
+        <span class="home-stat-desc">Tüm nadirliklerden detaylı rehber.</span>
+    </div>
+
+    <div class="home-stat-card">
+        <span class="home-stat-label">Harita sayısı</span>
+        <span class="home-stat-value">20+</span>
+        <span class="home-stat-desc">Kupadaki ve dereceli haritalar.</span>
+    </div>
+
+    <div class="home-stat-card">
+        <span class="home-stat-label">Desteklenen mod</span>
+        <span class="home-stat-value">7</span>
+        <span class="home-stat-desc">Gem Grab, Showdown, Heist, Brawl Ball ve daha fazlası.</span>
+    </div>
+</div>
+
+<div class="home-quick">
+    <h2 class="home-section-title">Hızlı başla</h2>
+    <div class="home-quick-grid">
+        <a href="{{ url_for('maps', mode='Showdown') }}" class="home-quick-card">
+            <h3>Showdown haritaları</h3>
+            <p>Solo / duo kupası kasmalık en iyi haritalar ve brawler’lar.</p>
+        </a>
+
+        <a href="{{ url_for('maps', mode='Brawl Ball') }}" class="home-quick-card">
+            <h3>Brawl Ball meta</h3>
+            <p>Kenji, Sam, Fang gibi öne çıkan brawler’larla gol şov.</p>
+        </a>
+
+        <a href="{{ url_for('brawlers', rarity='Legendary') }}" class="home-quick-card">
+            <h3>Efsanevi brawler’lar</h3>
+            <p>Leon, Cordelius, Meg, Amber ve diğerlerinin build’leri.</p>
+        </a>
+
+        <a href="{{ url_for('brawlers', rarity='Rare') }}" class="home-quick-card">
+            <h3>Başlangıç kadrosu</h3>
+            <p>Shelly, Colt, Nita gibi temel brawler’larla oyun öğren.</p>
+        </a>
+    </div>
+</div>
+
+{% endblock %}

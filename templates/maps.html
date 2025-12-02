@@ -1,0 +1,88 @@
+    {% extends "base.html" %}
+
+{% block title %}Brawl Meta – Haritalar{% endblock %}
+
+{% block content %}
+
+<h1 class="page-title">Brawl Stars Haritaları</h1>
+<p class="page-subtitle">
+    Harita listesi, oyun moduna göre filtrelenebilir.
+</p>
+
+<!-- MOD FİLTRE BUTONLARI -->
+<div class="mode-badges">
+    <a href="/maps"
+       class="mode-badge{% if not selected_mode %} mode-badge-active{% endif %}">
+        Tüm Modlar
+    </a>
+
+    <a href="/maps?mode=Gem+Grab"
+       class="mode-badge{% if selected_mode == 'Gem Grab' %} mode-badge-active{% endif %}">
+        Gem Grab
+    </a>
+
+    <a href="/maps?mode=Showdown"
+       class="mode-badge{% if selected_mode == 'Showdown' %} mode-badge-active{% endif %}">
+        Showdown
+    </a>
+
+    <a href="/maps?mode=Heist"
+       class="mode-badge{% if selected_mode == 'Heist' %} mode-badge-active{% endif %}">
+        Heist
+    </a>
+
+    <a href="/maps?mode=Bounty"
+       class="mode-badge{% if selected_mode == 'Bounty' %} mode-badge-active{% endif %}">
+        Bounty
+    </a>
+
+    <a href="/maps?mode=Brawl+Ball"
+       class="mode-badge{% if selected_mode == 'Brawl Ball' %} mode-badge-active{% endif %}">
+        Brawl Ball
+    </a>
+
+    <a href="/maps?mode=Hot+Zone"
+       class="mode-badge{% if selected_mode == 'Hot Zone' %} mode-badge-active{% endif %}">
+        Hot Zone
+    </a>
+
+    <a href="/maps?mode=Knockout"
+       class="mode-badge{% if selected_mode == 'Knockout' %} mode-badge-active{% endif %}">
+        Knockout
+    </a>
+</div>
+
+<!-- HARİTA KARTLARI -->
+<div class="map-grid">
+    {% for m in maps %}
+    <div class="map-card">
+
+        {% if m.image %}
+        <img src="{{ url_for('static', filename='images/maps/' ~ m.image) }}"
+             class="map-img">
+        {% endif %}
+
+        <h2 class="map-title">
+            <a href="/maps/{{ m.name | replace(' ', '-') | lower }}">
+                {{ m.name }}
+            </a>
+        </h2>
+
+        <p class="map-mode">
+            Mod: {{ m.mode }}
+        </p>
+
+        <p>
+            <strong>En iyi brawlerlar:</strong>
+            {{ m.best_brawlers | join(", ") }}
+        </p>
+
+        <p class="map-desc">
+            {{ m.description }}
+        </p>
+
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}{{ brawler.name }} – Brawl Meta{% endblock %}
+
+{% block content %}
+
+<p>
+    <a href="/brawlers" class="simple-link">← Brawler listesine geri dön</a>
+</p>
+
+<div class="detail-box">
+
+    {% if brawler.image %}
+    <img src="{{ url_for('static', filename='images/brawlers/' ~ brawler.image) }}"
+         class="map-img" style="max-width: 300px;">
+    {% endif %}
+
+    <h1 class="page-title">{{ brawler.name }}</h1>
+
+    <p class="page-subtitle">
+        <strong>Rarity:</strong> {{ brawler.rarity }}
+        | <strong>Role:</strong> {{ brawler.role }}
+        | <strong>Class:</strong> {{ brawler.class }}
+    </p>
+
+    <h2 style="color:#22ff66; margin-top:20px;">En iyi build</h2>
+    <p>{{ brawler.best_build }}</p>
+
+    <h2 style="color:#22ff66; margin-top:20px;">En iyi modlar</h2>
+    <ul>
+        {% for m in brawler.best_modes %}
+            <li>{{ m }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2 style="color:#22ff66; margin-top:20px;">Açıklama</h2>
+    <p>{{ brawler.description }}</p>
+
+</div>
+
+{% endblock %}

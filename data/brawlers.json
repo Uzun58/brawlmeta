@@ -1,0 +1,874 @@
+[
+  {
+    "name": "Gigi",
+    "rarity": "Mythic",
+    "role": "Assasin",
+    "best_build": "Gadget: Longer Strings, Star Power: Plie Protection, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "A cursed puppet who brings an unsettling vibe, Gigi and her bonded magician's glove are never found apart. You can find her in the Oddities Shop, dancing between the bookshelves.",
+    "image": "gigi.png"
+  },
+  {
+    "name": "Ziggy",
+    "rarity": "Mythic",
+    "role": "Controller",
+    "best_build": "Gadget: Noe You See Me , Star Power: The Great Ziggini, Gears: Shield, Damage",
+    "best_modes": ["Brawl Ball, Hot Zone, Gem Grab"],
+    "description": "Ziggy is an uber theatrical magician who excels at using electricity in his act. He's a bit full of himself, but hey, he can literally control lightning. Just remember... they're not tricks, they're illusions.",
+    "image": "ziggy.png"
+  },
+  {
+    "name": "Mina",
+    "rarity": "Mythic",
+    "role": "Damage Dealer",
+    "best_build": "Gadget: Windmill , Star Power: Blown Away, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "Mina is a b-girl who mixes capoeira into her breakdance battles like it's second nature. She hangs out at SK8 Beats with Ollie and uses his mixtapes to practice new moves!",
+    "image": "mina.png"
+  },
+  {
+    "name": "Trunk",
+    "rarity": "Epic",
+    "role": "Tank",
+    "best_build": "Gadget: For the Queen , Star Power: New Insect Overlords , Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "Trunk is a suspiciously uncanny looking tree. It couldn't be because Trunk is actually a colony of hyper-intelligent ants controlling a fake mechanical tree? No, that would be ridiculous.",
+    "image": "trunk.png"
+  },
+  {
+    "name": "Alli",
+    "rarity": "Mythic",
+    "role": "Assasin",
+    "best_build": "Gadget: Feed the Gators , Star Power: You Better Run, You Better Take Cover, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "Alli is the shy mechanic of the Love Swamp. She loves to get her hands dirty, by either fixing broken machines or... mercilessly stalking other Brawlers. If you're walking home late at night and hear an odd noise, it's probably Alli trying to say hello.",
+    "image": "alli.png"
+  },
+  {
+    "name": "Kaze",
+    "rarity": "Ultra-Legendary",
+    "role": "Assasin",
+    "best_build": "Gadget: Hensojutsu , Star Power: Advanced Tecniques, Gears: Speed, Damage",
+    "best_modes": ["Hot Zone, Brawl Ball, Gem Grab"],
+    "description": "Kaze was raised to be a living weapon by her parents, but this was not the life she wanted. After escaping to Starr Park with Kenji, she can now live how she wants. However, she is still torn between the two aspects of her life, being a humble geisha and a deadly ninja.",
+    "image": "kaze.png"
+  },
+  {
+    "name": "Jae-Yong",
+    "rarity": "Mythic",
+    "role": "Support",
+    "best_build": "Gadget: Weekend Warrior , Star Power: Extra High Note, Gears: Speed, Damage",
+    "best_modes": ["Knockout, Bounty, Gem Grab"],
+    "description": "Jae-yong is your average office worker. By night, he is a karaoke GOD... or so he thinks. The jury is still out on his singing skills.",
+    "image": "jae-yong.png"
+  },
+  {
+    "name": "Finx",
+    "rarity": "Mythic",
+    "role": "Controller",
+    "best_build": "Gadget: Back to the Fınxture , Star Power: Primer, Gears: Speed, Damage",
+    "best_modes": ["Knockout, Bounty, Gem Grab"],
+    "description": "The owner of Starr Park's escape room, Finx is meant to help visitors complete tasks. Instead, he uses his time controlling abilities to cause mischief! Also, he LOVES cats.",
+    "image": "finx.png"
+  },
+  {
+    "name": "Lumi",
+    "rarity": "Mythic",
+    "role": "Damage Dealer",
+    "best_build": "Gadget: Grim and Frostbitten , Star Power: 42 Burst, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Knockout, Gem Grab"],
+    "description": "A passionate metalhead and a talented drummer, Lumi traded her drumsticks for morning stars when she got her job at Starr Park. She controls elements of ice and fire, which reflects her shy nature and her burning passion for music!",
+    "image": "lumi.png"
+  },
+  {
+    "name": "Ollie",
+    "rarity": "Mythic",
+    "role": "Tank",
+    "best_build": "Gadget: Regulate , Star Power: Renegade, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Hot Zone, Gem Grab"],
+    "description": "Ollie rides his customized hoverboard around Starr Park, grinding rails and causing trouble! A fan of old school hip hop, Ollie blasts his favorite tunes wherever he goes. His music is infectious... literally. Brawlers can't help but dance when they hear it.",
+    "image": "ollie.png"
+  },
+  {
+    "name": "Meeple",
+    "rarity": "Epic",
+    "role": "Controller",
+    "best_build": "Gadget: Ragequit , Star Power: Do Not Pass Go, Gears: Speed, Damage",
+    "best_modes": ["Knockout, Hot Zone, Bounty"],
+    "description": "Meeple knows the rules to every board game in existence and if you break them... Well let's just say you don't want to break them. They hate cheaters and those who break the rules. There's only one exception... Meeple themselves!",
+    "image": "meeple.png"
+  },
+  {
+    "name": "Juju",
+    "rarity": "Mythic",
+    "role": "Artillery",
+    "best_build": "Gadget: Elementalist , Star Power: Guarded Gris-Gris, Gears: Speed, Damage",
+    "best_modes": ["Knockout, Hot Zone, Bounty"],
+    "description": "Juju owns the Oddities Shop and is followed everywhere by her \"pet\" voodoo doll, Gris-Gris (pronounced Gregory). Although she can control the elements, Juju is also a talented toymaker who makes dolls to sell to Starr Park's many visitors.",
+    "image": "juju.png"
+  },
+  {
+    "name": "Shade",
+    "rarity": "Epic",
+    "role": "Assassin",
+    "best_build": "Gadget: Longarms , Star Power: Hardened Hoodie, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Hot Zone"],
+    "description": "Not much is known about this mysterious pile of clothes, other than the fact it has some cool sunglasses. Discovered by Gus, Shade was given a name and now the two spooky Brawlers haunt the Ghost Station together.",
+    "image": "shade.png"
+  },
+  {
+    "name": "Kenji",
+    "rarity": "Legendary",
+    "role": "Assassin",
+    "best_build": "Gadget: Hosomaki Healing , Star Power: Studied the Blade, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Hot Zone, Gem Grab"],
+    "description": "This highly skilled sushi chef has a wholesome life running his restaurant in Starr Park, but it feels like he's trying to hide something about his past... though his sushi tastes so good, nobody cares!",
+    "image": "kenji.png"
+  },
+  {
+    "name": "Moe",
+    "rarity": "Mythic",
+    "role": "Damage Dealer",
+    "best_build": "Gadget: Dodgy Digging  , Star Power: Skipping Stones, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "Moe is a blind rat, found living in the Starr Park sewers by Grom, who then quickly adopted him! Now part of Starr Park's maintenance team, Moe uses his special digging machine, Driller, to traverse the sewer tunnels... and also cause a bit of destruction throughout the park, much to Ash's dismay.",
+    "image": "moe.png"
+  },
+  {
+    "name": "Clancy",
+    "rarity": "Mythic",
+    "role": "Damage Dealer",
+    "best_build": "Gadget: Snappy Shooting , Star Power: Recon, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Hot Zone, Gem Grab"],
+    "description": "There's no turning back with Clancy (unless Hank orders him to). He's fully embraced his fake crustacean life and will do anything for his comrades.",
+    "image": "clancy.png"
+  },
+  {
+    "name": "Berry",
+    "rarity": "Epic",
+    "role": "Support",
+    "best_build": "Gadget: Friendship is Great , Star Power: Floor is Fine, Gears: Shield, Damage",
+    "best_modes": ["Brawl Ball, Hot Zone , Gem Grab"],
+    "description": "Working at Mandy's Candy Shop, what could go wrong? EVERYTHING! Luckily, Berry has the patience and toughness of a workhorse. He seems to hate every second of his job, but at the end of his shift, you might catch a brief smile.",
+    "image": "berry.png"
+  },
+  {
+    "name": "Lily",
+    "rarity": "Mythic",
+    "role": "Assassin",
+    "best_build": "Gadget: Vanish , Star Power: Spiky, Gears: Gadget Cooldown, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Bounty"],
+    "description": "A nerd at heart and a total witchcraft buff, Lily's thirst for knowledge once led her into the Enchanted Woods, where an incident involving a firefly and a carnivorous plant would change her life forever...",
+    "image": "lily.png"
+  },
+  {
+    "name": "Draco",
+    "rarity": "Legendary",
+    "role": "Tank",
+    "best_build": "Gadget: Last Stand , Star Power: Shredding, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Hot Zone, Gem Grab"],
+    "description": "Riding his inflatable dragon and setting off fireworks, Draco promises a show-stopping finale every night. With his electric guitar blaring and his flame-spewing ride rocking the crowd, he turns the fantasy up to eleven!",
+    "image": "draco.png"
+  },
+  {
+    "name": "Angelo",
+    "rarity": "Epic",
+    "role": "Marksman",
+    "best_build": "Gadget: Master Fletcher, Star Power: Empover, Gears: Speed, Damage",
+    "best_modes": ["Heist, Showdown, Knockout"],
+    "description": "Angelo is the Love Swamp's resident cupid-turned-mosquito. They buzz around the canals looking for lovebirds to dazzle with their irresistible charm, even if those require a little extra, pointy incentive.",
+    "image": "angelo.png"
+  },
+  {
+    "name": "Melodie",
+    "rarity": "Mythic",
+    "role": "Assassin",
+    "best_build": "Gadget: Interlude , Star Power: Extended Mix, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Heist, Hot Zone"],
+    "description": "When it comes to Karaoke, Melodie shows no mercy. Armed with her kawaii looks and devilish set of pipes, she never fails to steal the limelight.",
+    "image": "melodie.png"
+  },
+  {
+    "name": "Larry & Lawrie",
+    "rarity": "Epic",
+    "role": "Artillery",
+    "best_build": "Gadget: Order: Fall Back , Star Power: Protocol: Protect, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Knockout, Heist"],
+    "description": "Larry sells tickets to Starr Park visitors under the watchful eye of his twin, Lawrie. Larry loves rules, they make life easier! Lawrie doesn't love rules so much as enforcing them. They make a good team.",
+    "image": "larry-&-lawrie.png"
+  },
+  {
+    "name": "Kit",
+    "rarity": "Legendary",
+    "role": "Support",
+    "best_build": "Gadget: Cardboard Box , Star Power: Power Hungry, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Knockout"],
+    "description": "Stuck giving autographs to his rabid fans at Starr Toon Studios, cartoony superstar Kit often daydreams of becoming relevant in the industry again, respected for his acting chops rather than his looks.",
+    "image": "kit.png"
+  },
+  {
+    "name": "Mico",
+    "rarity": "Mythic",
+    "role": "Assassin",
+    "best_build": "Gadget: Clipping Scream , Star Power: Monkey Bussines, Gears: Health, Damage",
+    "best_modes": ["Heist, Showdown, Knockout"],
+    "description": "Mico's the sound guy in Brawlywood, but one could be forgiven for thinking he's actually a celebrity given all the bragging and name-dropping. Hot-tempered and unstable, he cannot take a joke. Don't ever call him funny...",
+    "image": "mico.png"
+  },
+  {
+    "name": "Charlie",
+    "rarity": "Mythic",
+    "role": "Controller",
+    "best_build": "Gadget: Spiders , Star Power: Digestive , Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Knockout, Gem Grab"],
+    "description": "Itsy bitsy Charlie Put on a crazy show She let down her hair And made off with all your dough In came the crowd It filled up the circus tent So Charlie weaved away while Taking every cent!",
+    "image": "charlie.png"
+  },
+  {
+    "name": "Chuck",
+    "rarity": "Mythic",
+    "role": "Damage Dealer",
+    "best_build": "Gadget: Rerouting , Star Power: Tickets Please, Gears: Speed, Damage",
+    "best_modes": ["Heist, Hot Zone , Brawl Ball"],
+    "description": "Once a brilliant maestro, now a train conductor, Chuck traded the symphonies of the concert halls for the cacophonies of the Ghost Station, all in the hope of discovering the next big thing in music!",
+    "image": "chuck.png"
+  },
+  {
+    "name": "Pearl",
+    "rarity": "Epic",
+    "role": "Damage Dealer",
+    "best_build": "Gadget: Overcooked , Star Power: Heat Shield, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Knockout"],
+    "description": "Against all odds, Pearl found her way into Belle and Sam's hardened hearts thanks to her disarmingly warm nature. Besides, who can resist chocolate cookies?",
+    "image": "pearl.png"
+  },
+  {
+    "name": "Doug",
+    "rarity": "Mythic",
+    "role": "Support",
+    "best_build": "Gadget: Extra Mustard , Star Power: Self Service, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "Doug's hot dogs will extend your friends' shelf life.",
+    "image": "doug.png"
+  },
+  {
+    "name": "Cordelius",
+    "rarity": "Legendary",
+    "role": "Assassin",
+    "best_build": "Gadget: Replanting , Star Power: Comboshrooms, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "Gardener and caretaker of the Enchanted Forest. Obsesses over mushrooms and is hostile towards strangers.",
+    "image": "cordelius.png"
+  },
+  {
+    "name": "Hank",
+    "rarity": "Epic",
+    "role": "Tank",
+    "best_build": "Gadget: Barricade, Star Power: Its gonna Blow, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "Hank is a one-shrimp, one-tank army on a mission to liberate sea life from kitchens and markets everywhere. Chefs, consider yourselves on notice!",
+    "image": "hank.png"
+  },
+  {
+    "name": "Maisie",
+    "rarity": "Epic",
+    "role": "Marksman",
+    "best_build": "Gadget: Disengage , Star Power: Tremors, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "Maisie works as a safety coordinator, but deep down she enjoys dangerous situations. Sometimes, it almost feels like she has a hand in creating them.",
+    "image": "maisie.png"
+  },
+  {
+    "name": "Willow",
+    "rarity": "Mythic",
+    "role": "Controller",
+    "best_build": "Gadget: Dive , Star Power: Obsession, Gears: Shield, Damage",
+    "best_modes": ["Brawl Ball, Knockout, Showdown"],
+    "description": "Willow works as a gondoliera in the Swamp of Love. She gives couples in search of a romantic evening the creepiest, most unsettling time they could imagine.",
+    "image": "willow.png"
+  },
+  {
+    "name": "R-T",
+    "rarity": "Mythic",
+    "role": "Damage Dealer",
+    "best_build": "Gadget: Out of Line , Star Power: Recording, Gears: Vision, Damage",
+    "best_modes": ["Knockout, Showdown, Bounty"],
+    "description": "R-T is designed to be a helpful information kiosk, but he's also been given the task of monitoring all activity within Starr Park. For safety reasons, of course.",
+    "image": "r-t.png"
+  },
+  {
+    "name": "Mandy",
+    "rarity": "Epic",
+    "role": "Marksman",
+    "best_build": "Gadget: Cookie Crumbs , Star Power: Hard Candy, Gears: Vision, Damage",
+    "best_modes": ["Knockout, Bounty, Heist"],
+    "description": "Mandy runs a candy store where she dresses in costume and doles out sweet treats. She's a little too into the act and rules her candy kingdom with an iron fist.",
+    "image": "mandy.png"
+  },
+  {
+    "name": "Gray",
+    "rarity": "Mythic",
+    "role": "Support",
+    "best_build": "Gadget: Walking Cane , Star Power: New Perspective, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Hot Zone, Knockout"],
+    "description": "Gray styles himself as a character in an old silent film. He takes the act seriously but sometimes forgets to keep his mouth shut when doing finger bullets.",
+    "image": "gray.png"
+  },
+  {
+    "name": "Chester",
+    "rarity": "Legendary",
+    "role": "Damage Dealer",
+    "best_build": "Gadget: Candy Beans , Star Power: Single Bell'o'Mania, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "Chester makes vicious fun of anyone in sight, trying to get under their skin. The more hate he gets, the better... especially if that hater is Mandy!",
+    "image": "chester.png"
+  },
+  {
+    "name": "Buster",
+    "rarity": "Mythic",
+    "role": "Tank",
+    "best_build": "Gadget: Slo-Mo Replay , Star Power: Kevlar Vest, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Knockout, Gem Grab"],
+    "description": "Buster took a film projector from the movie theater where he works so he can play around with it like a prop. It's dangerous and highly unprofessional!",
+    "image": "buster.png"
+  },
+  {
+    "name": "Gus",
+    "rarity": "Super Rare",
+    "role": "Support",
+    "best_build": "Gadget: Kooky Pooper , Star Power: Health Bonanza, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Knockout, Bounty"],
+    "description": "Gus looks so much like a ghost child that he's often mistaken for one. Perhaps fittingly, he's an enthusiast of all things Supernatural, since he's too innocent to be scared.",
+    "image": "gus.png"
+  },
+  {
+    "name": "Sam",
+    "rarity": "Epic",
+    "role": "Assassin",
+    "best_build": "Gadget: Magnetic Field , Star Power: Hearty Recovery, Gears: Gadget Cooldown, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "A former factory worker turned wanted member of the Goldarm Gang, Sam is always there to ensure Belle doesn't go too far on their latest heist!",
+    "image": "sam.png"
+  },
+  {
+    "name": "Otis",
+    "rarity": "Mythic",
+    "role": "Controller",
+    "best_build": "Gadget: Phat Splatter , Star Power: Ink Refills, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Hot Zone, Gem Grab"],
+    "description": "Otis is a young street artist on the come-up who works by shooting ink at the walls. Nobody knows his true identity, which only adds to his mystique!",
+    "image": "otis.png"
+  },
+  {
+    "name": "Bonnie",
+    "rarity": "Epic",
+    "best_build": "Gadget: Sugar Rush , Star Power: Black Powder, Gears: Speed, Damage",
+    "best_modes": ["Heist, Knockout, Bounty"],
+    "description": "Bonnie is a bundle of uncontrollable and totally destructive energy. Her dream is to be fired from her cannon, all the way to the moon!",
+    "image": "bonnie.png"
+  },
+  {
+    "name": "Janet",
+    "rarity": "Mythic",
+    "role": "Marksman",
+    "best_build": "Gadget: Drop the Bass , Star Power: Vocal Warm Up, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Bounty, Gem Grab"],
+    "description": "Janet will do whatever it takes to reach the top! As a bonus, her performing skills come in handy for rescuing her sister Bonnie, whenever she gets into trouble.",
+    "image": "janet.png"
+  },
+  {
+    "name": "Eve",
+    "rarity": "Mythic",
+    "role": "Damage Dealer",
+    "best_build": "Gadget: Gotta Go , Star Power: Happy Suprise, Gears: Speed, Damage",
+    "best_modes": ["Knockout, Bounty, Heist"],
+    "description": "Eve's purpose in life is to mother and protect her precious babies! She'll do whatever it takes to find them a good home... preferably in Ruffs' fur",
+    "image": "eve.png"
+  },
+  {
+    "name": "Fang",
+    "rarity": "Mythic",
+    "role": "Assassin",
+    "best_build": "Gadget: Roundhouse Kick , Star Power: Fresh Kicks, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Bounty"],
+    "description": "Fang has absorbed so many kung-fu movies he practically lives in one. He's confident, charming, and never uses his hands if he can kick instead!",
+    "image": "fang.png"
+  },
+  {
+    "name": "Lola",
+    "rarity": "Epic",
+    "role": "Damage Dealer",
+    "best_build": "Gadget: Freeze Frame , Star Power: Improsive, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Hot Zone, Gem Grab"],
+    "description": "Lola makes sure everyone knows when she enters a room. She's an expert in the fine art of causing a scene to get what she wants, and she's proud of it!",
+    "image": "lola.png"
+  },
+  {
+    "name": "Meg",
+    "rarity": "Legendary",
+    "role": "Tank",
+    "best_build": "Gadget: Jolting Volts , Star Power: Force Field, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Hot Zone"],
+    "description": "Content to work behind the scenes with her trusty mecha suit, Meg takes care of real problems, while Max and Surge are out entertaining the crowds.",
+    "image": "meg.png"
+  },
+  {
+    "name": "Ash",
+    "rarity": "Epic",
+    "role": "Tank",
+    "best_build": "Gadget: Chill Pill , Star Power: First Bash, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Gem Grab, Hot Zone"],
+    "description": "Ash has the thankless job of keeping the park clean. He's climbed into a trash can to protect himself from broken glass and rat bites. It makes him grumpy!",
+    "image": "ash.png"
+  },
+  {
+    "name": "Griff",
+    "rarity": "Epic",
+    "role": "Controller",
+    "best_build": "Gadget: Piggy Bank, Star Power: Business Resilince, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Hot Zone, Gem Grab"],
+    "description": "Griff acts like a rich, successful entrepreneur, but his only business is the failing Starr Park Gift Shop. Oddly, he's never around when the bank calls.",
+    "image": "griff.png"
+  },
+  {
+    "name": "Buzz",
+    "rarity": "Mythic",
+    "role": "Assassin",
+    "best_build": "Gadget: Reserve Buoy , Star Power: Eyes Sharp, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "Buzz is a lifeguard at the Velocirapids water park and a real stickler for the rules. He clearly enjoys wielding the tiny bit of authority he has to the greatest degree possible.",
+    "image": "buzz.png"
+  },
+  {
+    "name": "Grom",
+    "rarity": "Epic",
+    "role": "Artillery",
+    "best_build": "Gadget: Radio Check , Star Power: X-Factor, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Knockout, Gem Grab"],
+    "description": "Grom is a brawny security guard with one weak point: the flashbacks he gets from his time working at a kindergarten. Those kids were merciless.",
+    "image": "grom.png"
+  },
+  {
+    "name": "Squeak",
+    "rarity": "Mythic",
+    "role": "Controller",
+    "best_build": "Gadget: Residue , Star Power: Chain Reaction, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Bounty, Knockout"],
+    "description": "Squeak is a blob of happy energy who loves his creator, Ruffs. He's a joy to be around, at least if you are unaware that he's made of dog slobber",
+    "image": "squeak.png"
+  },
+  {
+    "name": "Belle",
+    "rarity": "Epic",
+    "role": "Marksman",
+    "best_build": "Gadget: Reverse Polarity,Star Power: Positive Feedback , Gears: Vision, Damage",
+    "best_modes": ["Bounty, Knockout, Gem Grab"],
+    "description": "The leader of the notorious Goldarm Gang, Belle is after more than money. She wants to find out the truth behind Starr Park and bring it down!",
+    "image": "belle.png"
+  },
+  {
+    "name": "Stu",
+    "rarity": "Epic",
+    "role": "Assassin",
+    "best_build": "Gadget: Breakthrough , Star Power: Gaso-Heal, Gears: Shield, Damage",
+    "best_modes": ["Brawl Ball, Bounty, Gem Grab"],
+    "description": "A little punch-drunk from too many bumps, bruises, and gasoline fumes over his long stunt performing career, Stu is a bit wobbly on his wheel these days.",
+    "image": "stu.png"
+  },
+  {
+    "name": "Ruffs",
+    "rarity": "Mythic",
+    "role": "Support",
+    "best_build": "Gadget: Irresistible Attraction , Star Power: Power Grab, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Knockout, Gem Grab"],
+    "description": "Ruffs is a loyal, highly disciplined space colonel who runs a tight ship and does everything by the book. But deep down, he just wants to be a good boy!",
+    "image": "ruffs.png"
+  },
+  {
+    "name": "Edgar",
+    "rarity": "Epic",
+    "role": "Assassin",
+    "best_build": "Gadget: Hardcore, Star Power: Fisticuffs, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Heist"],
+    "description": "Edgar believes nobody understands him. Certainly not his mom, who thinks he's going through a phase. Only he knows the darkness in his soul is eternal.",
+    "image": "edgar.png"
+  },
+  {
+    "name": "Byron",
+    "rarity": "Mythic",
+    "role": "Support",
+    "best_build": "Gadget: Booster Shots , Star Power: Malaise, Gears: Vision, Damage",
+    "best_modes": ["Brawl Ball, Knockout, Bounty"],
+    "description": "Byron has invented many concoctions and tinctures that heal or harm in various ways.... but most of them fall into the harming category",
+    "image": "byron.png"
+  },
+  {
+    "name": "Lou",
+    "rarity": "Mythic",
+    "role": "Controller",
+    "best_build": "Gadget: Cyro Syrup , Star Power: Supercool, Gears: Vision, Damage",
+    "best_modes": ["Brawl Ball, Hot Zone, Gem Grab"],
+    "description": "Lou is a robot snow cone salesman who's yet to make his first sale. Being located on a snowy mountain peak might have something to do with that.",
+    "image": "lou.png"
+  },
+  {
+    "name": "Amber",
+    "rarity": "Legendary",
+    "role": "Controller",
+    "best_build": "Gadget: Fıre Starters , Star Power: Wınd Flames, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Hot Zone, Gem Grab"],
+    "description": "Amber brings the heat, literally! She's overconfident about her fire abilities despite being a bit of a klutz. With her, it's spectacle first, and safety last.",
+    "image": "amber.png"
+  },
+  {
+    "name": "Colette",
+    "rarity": "Epic",
+    "role": "Damage Dealer",
+    "best_build": "Gadget: Gotcha! , Star Power: Push It, Gears: Gadget Cooldown, Damage",
+    "best_modes": ["Brawl Ball, Heist, Gem Grab"],
+    "description": "Colette has collected every single figurine, plushie, and toy of every single Brawler. Is she obsessed? Yes. But has she lost touch with reality? Also yes.",
+    "image": "colette.png"
+  },
+  {
+    "name": "Surge",
+    "rarity": "Legendary",
+    "role": "Damage Dealer",
+    "best_build": "Gadget: Power Shield, Star Power: Serve Ice Cold, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "Surge is a souped-up soda fountain, always ready to get the party started! He's got the beats, the moves, and an endless supply of energy drinks.",
+    "image": "surge.png"
+  },
+  {
+    "name": "Sprout",
+    "rarity": "Mythic",
+    "role": "Artillery",
+    "best_build": "Gadget: Transplant , Star Power: Photosynthesist, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Heist, Gem Grab"],
+    "description": "Sprout appears to be a cute gardening robot who helps Rosa around the Biodome, but it's actually an incubator with arms and wheels for a strange pink seed!",
+    "image": "sprout.png"
+  },
+  {
+    "name": "Nani",
+    "rarity": "Epic",
+    "role": "Marksman",
+    "best_build": "Gadget: Return To Sender , Star Power: Autofocus, Gears: Speed, Gadget Cooldown",
+    "best_modes": ["Bounty, Knockout, Gem Grab"],
+    "description": "Originally a security camera, Nani was modified to keep an eye on Jessie. Unfortunately, she can hardly keep up with the precocious girl!",
+    "image": "nani.png"
+  },
+  {
+    "name": "Gale",
+    "rarity": "Epic",
+    "role": "Controller",
+    "best_build": "Gadget: Twister , Star Power: Blustery Blow, Gears: Vision, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Hot Zone"],
+    "description": "Gale's job is to use his snowblower to clear the areas around Mr. P's Snowtel. Nobody mentioned anything about stopping when the guests were around...",
+    "image": "gale.png"
+  },
+  {
+    "name": "Jacky",
+    "rarity": "Super Rare",
+    "role": "Tank",
+    "best_build": "Gadget: Pneumatic Booster , Star Power: Counter Crush, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "Jacky is a miner who can't resist mouthing off about her wild work experiences using very colorful language! Luckily, the bad words are drowned out by the noise of her jackhammer",
+    "image": "jacky.png"
+  },
+  {
+    "name": "Max",
+    "rarity": "Mythic",
+    "role": "Support",
+    "best_build": "Gadget: Phase Shifter , Star Power: Run'n Gun, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "Fuelled by energy drinks, Max speeds to the scene whenever someone needs help. She never sticks around long enough to do much... but she sure is fast!",
+    "image": "max.png"
+  },
+  {
+    "name": "Mr. P",
+    "rarity": "Mythic",
+    "role": "Controller",
+    "best_build": "Gadget: Porter Reinforcements , Star Power: Revolving Door, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Bounty, Gem Grab"],
+    "description": "Mr. P is in over his head trying to run a hotel. He's always yelling at his employees to work faster, as if they could understand his gibberish!",
+    "image": "mr-p.png"
+  },
+  {
+    "name": "Emz",
+    "rarity": "Epic",
+    "role": "Controller",
+    "best_build": "Gadget: Friendzoner , Star Power: Hype, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Heist, Hot Zone"],
+    "description": "Emz supposedly works for her uncle Mortis at the mortuary, but she rarely makes an appearance there. She's too busy hawking her hairspray brand online.",
+    "image": "emz.png"
+  },
+  {
+    "name": "Bea",
+    "rarity": "Epic",
+    "role": "Marksman",
+    "best_build": "Gadget: Rattled Hive , Star Power: Honeycomb , Gears: Shield, Damage",
+    "best_modes": ["Brawl Ball, Hot Zone, Gem Grab"],
+    "description": "Bea spends her day watching bugs as they go about their lives, imagining what they'd say if she could understand them... or even what it's like to be one.",
+    "image": "bea.png"
+  },
+  {
+    "name": "Sandy",
+    "rarity": "Legendary",
+    "role": "Controller",
+    "best_build": "Gadget: Sweet Dreams , Star Power: Rude Sands , Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Hot Zone, Gem Grab"],
+    "description": "On the rare occasions Sandy wakes from his slumber, he tries to help his big sister Tara around their store. But it's never long before he falls asleep again.",
+    "image": "sandy.png"
+  },
+  {
+    "name": "8-Bit",
+    "rarity": "Super Rare",
+    "role": "Damage Dealer",
+    "best_build": "Gadget: Cheat Cartridge , Star Power: Plugged in, Gears: Speed, Damage",
+    "best_modes": ["Heist, Bounty, Gem Grab"],
+    "description": "An arcade game famous for its brutal difficulty, 8-Bit always hated its players. Now that it's missing one of its guns, it's angrier than ever before.",
+    "image": "8-bit.jpg"
+  },
+  {
+    "name": "Bibi",
+    "rarity": "Epic",
+    "role": "Tank",
+    "best_build": "Gadget: Vitamin Booster , Star Power: Batting Stance Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "Bibi is a tough punk with a baseball bat and an attitude to match. She's a bit of a nerd too, but she'd never show it. She's got an image to maintain!",
+    "image": "bibi.png"
+  },
+  {
+    "name": "Carl",
+    "rarity": "Super Rare",
+    "role": "Damage Dealer",
+    "best_build": "Gadget: Heat Ejector , Star Power: Protective Piroutte, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball , Bounty, Gem Grab"],
+    "description": "Carl is a mining robot who's fascinated by rocks and stones of all kinds. Don't let him get started on his latest obsession: the effects of Gems!",
+    "image": "carl.png"
+  },
+  {
+    "name": "Rosa",
+    "rarity": "Rare",
+    "role": "Tank",
+    "best_build": "Gadget: Unfriendly Bushes , Star Power: Thorny Gloves, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "Rosa is a botanist with a strong connection to plants. She's also a boxer, and won't hesitate to punch one of her specimens if it goes out of control!",
+    "image": "rosa.png"
+  },
+  {
+    "name": "Leon",
+    "rarity": "Legendary",
+    "role": "Assassin",
+    "best_build": "Gadget: Lollipop Drop , Star Power: Invisiheal , Gears: Vision, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "Since Leon doesn't like hanging with other people much, his ability to become invisible comes in handy. Only his little sister, Nita, seems to get through to him.",
+    "image": "leon.png"
+  },
+  {
+    "name": "Tick",
+    "rarity": "Super Rare",
+    "role": "Artillery",
+    "best_build": "Gadget: Last Hurrah, Star Power: Automa-tick Reload , Gears: Shield, Damage",
+    "best_modes": ["Knockout, Bounty, Gem Grab"],
+    "description": "Tick follows Penny around like a pet as she plots her next big scheme. He isn't good for much besides blowing things up, but that's usually plenty!",
+    "image": "tick.png"
+  },
+  {
+    "name": "Gene",
+    "rarity": "Mythic",
+    "role": "Controller",
+    "best_build": "Gadget: Lamp Blowout , Star Power: Spirit Slap , Gears: Damage, Vision",
+    "best_modes": ["Knockout, Bounty, Gem Grab"],
+    "description": "Most people look at Gene and see a funny little guy in a costume. What they don't see is that his personality is split between his body and his teapot.",
+    "image": "gene.png"
+  },
+  {
+    "name": "Frank",
+    "rarity": "Epic",
+    "role": "Tank",
+    "best_build": "Gadget: Irresistible Attraction , Star Power: Power Grab, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "Frank is a good-natured giant who helps out at the mortuary by day and spins tunes at the Club by night. He doesn't get a lot of sleep, and it shows.",
+    "image": "frank.png"
+  },
+  {
+    "name": "Penny",
+    "rarity": "Super Rare",
+    "role": "Artillery",
+    "best_build": "Gadget: Trusty Spyglasses , Star Power: Heavy Coffers , Gears: Vision, Damage",
+    "best_modes": ["Hot Zone, Heist, Showdown"],
+    "description": "Penny doesn't care about studying old maps or puzzling over sea shanty riddles. She's a pirate so she can blow stuff up and grab whatever she wants!",
+    "image": "penny.png"
+  },
+  {
+    "name": "Darryl",
+    "rarity": "Super Rare",
+    "role": "Tank",
+    "best_build": "Gadget: Tar Barrel , Star Power: Steel Hoops , Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "Darryl put on the pirate captain's hat in a bid to avoid work, but now he's forced to defend his ship! Who knew being in charge took actual effort?",
+    "image": "darryl.png"
+  },
+  {
+    "name": "Tara",
+    "rarity": "Mythic",
+    "role": "Damage Dealer",
+    "best_build": "Gadget: Support From Beyond , Star Power: Healing Shade , Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Hot Zone, Gem Grab"],
+    "description": "Tara has seen in the cards that great difficulties lie ahead! But don't despair... she has a terrific selection of magical trinkets for sale to help with that.",
+    "image": "tara.png"
+  },
+  {
+    "name": "Pam",
+    "rarity": "Epic",
+    "role": "Support",
+    "best_build": "Gadget: Scrapsucker , Star Power: Mama's Squeeze' , Gears: Speed, Damage",
+    "best_modes": ["Hot Zone, Brawl Ball, Gem Grab"],
+    "description": "Pam handles an enormous workload at the junkyard and always gets it done! It's just a shame it keeps her away from her daughter, Jessie...",
+    "image": "pam.png"
+  },
+  {
+    "name": "Piper",
+    "rarity": "Epic",
+    "role": "Marksman",
+    "best_build": "Gadget: Auto Aimer , Star Power: Snappy Sniping , Gears: Shield, Damage",
+    "best_modes": ["Brawl Ball, Bounty, Knockout"],
+    "description": "Piper wants nothing more than to be the local village baker who hands out pies, cookies and other sweet treats! Just don't ask about her past.",
+    "image": "piper.png"
+  },
+  {
+    "name": "Bo",
+    "rarity": "Epic",
+    "role": "Controller",
+    "best_build": "Gadget: Tripware , Star Power: Snare a Bear , Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Hot Zone, Gem Grab"],
+    "description": "Bo has survived in the Rumble Jungle for a long time. It's all the more impressive considering he's been using toys he got on sale from the Gift Shop.",
+    "image": "bo.png"
+  },
+  {
+    "name": "Poco",
+    "rarity": "Rare",
+    "role": "Support",
+    "best_build": "Gadget: Tuning Fork , Star Power: Scheering Solo , Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Hot Zone, Gem Grab"],
+    "description": "Poco believes music can change people's lives. He's so enthusiastic about it that he never stops playing, even after people ask him to!",
+    "image": "poco.png"
+  },
+  {
+    "name": "Crow",
+    "rarity": "Legendary",
+    "role": "Assassin",
+    "best_build": "Gadget: Defense Booster , Star Power: Extra Toxic , Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Heist"],
+    "description": "Crow trusts no one and keeps to himself. The most anyone knows about him is that he's often found at the diner, hanging out with Bull and Bibi.",
+    "image": "crow.png"
+  },
+  {
+    "name": "Mortis",
+    "rarity": "Mythic",
+    "role": "Assassin",
+    "best_build": "Gadget: Survive Shovel , Star Power: Coiled Snake , Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Bounty, Gem Grab"],
+    "description": "Mortis had grand designs built around being a mortician and a vampire, but the fact that nobody is dying at Starr Park has put a huge damper on his plans.",
+    "image": "mortis.png"
+  },
+  {
+    "name": "El Primo",
+    "rarity": "Rare",
+    "role": "Tank",
+    "best_build": "Gadget: Suplex Suppletement , Star Power: El Fuego , Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "El Primo is always in the spotlight and that's right where he wants to be! There's no audience he can't win over, except maybe his fellow performers...",
+    "image": "el-primo.png"
+  },
+  {
+    "name": "Dynamike",
+    "rarity": "Super Rare",
+    "role": "Artillery",
+    "best_build": "Gadget: Satchel Charge , Star Power: Demolition , Gears: Shield, Damage",
+    "best_modes": ["Brawl Ball, Heist, Gem Grab"],
+    "description": "Dynamike is an old miner and prospector who's become obsessed with explosions. Nothing makes him happier than a big boom!",
+    "image": "dynamike.png"
+  },
+  {
+    "name": "Nita",
+    "rarity": "Rare",
+    "role": "Damage Dealer",
+    "best_build": "Gadget: Bear Paws , Star Power: Hyper Bear, Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Heist, Gem Grab"],
+    "description": "Nita is a ferocious child who never backs down from a fight! The teddy bear on her head serves as a warning to others: don't poke the bear.",
+    "image": "nita.png"
+  },
+  {
+    "name": "Jessie",
+    "rarity": "Super Rare",
+    "role": "Controller",
+    "best_build": "Gadget: Recoil Spring , Star Power: Shocky , Gears: Speed, Damage",
+    "best_modes": ["Heist, Hot Zone, Gem Grab"],
+    "description": "Jessie is a prodigy who builds guns and gadgets from parts she finds in the junkyard. Maybe one day her mother Pam will see she can fend for herself!",
+    "image": "jessie.png"
+  },
+  {
+    "name": "Barley",
+    "rarity": "Rare",
+    "role": "Artillery",
+    "best_build": "Gadget: Herbal Tonic , Star Power: Medical Use , Gears: Shield, Damage",
+    "best_modes": ["Brawl Ball, Heist, Hot Zone"],
+    "description": "A bartending robot designed to mix drinks and banter with patrons, Barley also makes sure to keep his bar clean, to the detriment of anyone who makes a mess.",
+    "image": "barley.png"
+  },
+  {
+    "name": "Spike",
+    "rarity": "Legendary",
+    "role": "Damage Dealer",
+    "best_build": "Gadget: Life Plant , Star Power: Curveball , Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Bounty, Gem Grab"],
+    "description": "Most people think Spike is Colt and Shelly's cute sidekick at the Ranger Ranch. Nobody could begin to guess the depths of his trauma",
+    "image": "spike.png"
+  },
+  {
+    "name": "Rico",
+    "rarity": "Super Rare",
+    "role": "Damage Dealer",
+    "best_build": "Gadget: Multiball Launcher , Star Power: Super bouncy , Gears: Vision, Damage",
+    "best_modes": ["Brawl Ball, Bounty, Gem Grab"],
+    "description": "Rico is definitely a real space bounty hunter who tracks down the galaxy's most wanted criminals, not a gumball machine pretending to be cool.",
+    "image": "rico.png"
+  },
+  {
+    "name": "Brock",
+    "rarity": "Rare",
+    "role": "Marksman",
+    "best_build": "Gadget: Rocket Fuel , Star Power: Rocket No.4 , Gears: Shield, Damage",
+    "best_modes": ["Heist, Knockout, Bounty"],
+    "description": "Brock is a smack-talking video game enthusiast. His big attitude hides a more introverted personality, but he'll still do whatever it takes to win!",
+    "image": "brock.png"
+  },
+  {
+    "name": "Bull",
+    "rarity": "Rare",
+    "role": "Tank",
+    "best_build": "Gadget: Stomper , Star Power: Tough Guy , Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Heist"],
+    "description": "Bull isn't as carefree as he was in his youth, but just because his rowdy days are behind him doesn't mean he won't still crush someone who's asking for it.",
+    "image": "bull.png"
+  },
+  {
+    "name": "Colt",
+    "rarity": "Rare",
+    "role": "Damage Dealer",
+    "best_build": "Gadget: Silver Bullet , Star Power: Slick Boots , Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Heist, Bounty"],
+    "description": "Colt is the star attraction at Starr Park! His good looks, charisma and gun twirling tricks win over any audience, except maybe Shelly.",
+    "image": "colt.png"
+  },
+  {
+    "name": "Shelly",
+    "rarity": "Common",
+    "role": "Damage Dealer",
+    "best_build": "Gadget: Clay Pigeons , Star Power: Shell Shock , Gears: Speed, Damage",
+    "best_modes": ["Brawl Ball, Showdown, Gem Grab"],
+    "description": "Shelly's the perfect ranger: reliable, tough, and terrific with her shotgun. She never understood why Colt got to steal the limelight...",
+    "image": "shelly.png"
+  }
+]

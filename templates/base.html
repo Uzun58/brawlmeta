@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}BrawlMeta{% endblock %}</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='images/logo.png') }}">
+
+</head>
+
+<body>
+
+<header class="site-header">
+    <nav class="navbar">
+        <!-- Sol logo -->
+        <a href="{{ url_for('home') }}" class="navbar-brand">
+            <img src="{{ url_for('static', filename='images/logo.png') }}"
+                 alt="BrawlMeta logo" class="navbar-logo">
+        </a>
+
+        <!-- Sağ linkler -->
+        <div class="navbar-links">
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('maps') }}">Maps</a>
+            <a href="{{ url_for('brawlers') }}">Brawlers</a>
+            <!-- Dark/Light Mode Toggle -->
+    <div class="theme-toggle-wrapper">
+    <span class="theme-icon">🌙</span>
+    <label class="switch">
+        <input type="checkbox" id="theme-toggle">
+        <span class="slider"></span>
+    </label>
+    <span class="theme-icon">☀️</span>
+        </div>
+    </nav>
+</header>
+
+<main class="page-main">
+    {% block content %}{% endblock %}
+</main>
+<script>
+    const themeCheckbox = document.getElementById("theme-toggle");
+
+    // Sayfa açıldığında kayıtlı modu uygula
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme === "light") {
+        document.body.classList.add("light-mode");
+        if (themeCheckbox) {
+            themeCheckbox.checked = true;
+        }
+    }
+
+    if (themeCheckbox) {
+        themeCheckbox.addEventListener("change", () => {
+            if (themeCheckbox.checked) {
+                // Light mode
+                document.body.classList.add("light-mode");
+                localStorage.setItem("theme", "light");
+            } else {
+                // Dark mode
+                document.body.classList.remove("light-mode");
+                localStorage.setItem("theme", "dark");
+            }
+        });
+    }
+</script>
+
+
+</body>
+</html>
+

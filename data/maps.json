@@ -1,0 +1,237 @@
+[
+  {
+    "name": "Gem Fort",
+    "mode": "Gem Grab",
+    "best_brawlers": ["Crow", "Lily", "Meeple"],
+    "description": "Tamamen çalılık dolu, hasar ve görüş çok önemli.",
+    "image": "gem_fort.png"
+  },
+  {
+    "name": "Undermine",
+    "mode": "Gem Grab",
+    "best_brawlers": ["Meeple", "Tara", "Finx"],
+    "description": "Ortası açıklık, kenarları kapalı Gem Grab haritası.",
+    "image": "undermine.png"
+  },
+
+  {
+    "name": "Dueling Beetles",
+    "mode": "Hot Zone",
+    "best_brawlers": ["Lou", "Gray", "Hank"],
+    "description": "Ortadaki tek zone için sürekli kavga edilen klasik Hot Zone haritası.",
+    "image": "dueling_beetles.png"
+  },
+  {
+    "name": "Ring of Fire",
+    "mode": "Hot Zone",
+    "best_brawlers": ["Alli", "Gray", "Meg"],
+    "description": "Ortada tek büyük zone, uzağa vuran brawler'lar çok güçlü.",
+    "image": "ring_of_fire.png"
+  },
+
+  {
+    "name": "Shooting Star",
+    "mode": "Bounty",
+    "best_brawlers": ["Gene", "Angelo", "Gus"],
+    "description": "Tamamen açık, duvarı az olan uzun menzilli Bounty haritası.",
+    "image": "shooting_star.png"
+  },
+  {
+    "name": "Hideout",
+    "mode": "Bounty",
+    "best_brawlers": ["Gene", "Gus", "Byron"],
+    "description": "Ortada boşluk, yanlarda çalılar. Hem görüş hem menzil önemli.",
+    "image": "hideout.png"
+  },
+
+  {
+    "name": "Sneaky Fields",
+    "mode": "Brawl Ball",
+    "best_brawlers": ["Mina", "Otis", "Kenji"],
+    "description": "Kalelerin önünde çalılar, yüksek hasarlı brawler'lar öne çıkar.",
+    "image": "sneaky_fields.png"
+  },
+  {
+    "name": "Super Beach",
+    "mode": "Brawl Ball",
+    "best_brawlers": ["Max", "Larry and Lawrie", "Hank"],
+    "description": "Oldukça açık, pas oyununun güçlü olduğu bir Brawl Ball haritası.",
+    "image": "super_beach.png"
+  },
+
+  {
+    "name": "Hard Rock Mine",
+    "mode": "Gem Grab",
+    "best_brawlers": ["Janet", "Cordelius", "Otis"],
+    "description": "Ortadaki maden bölgesinde gem'ler çıkar. Kontrol odaklı takımlar güçlüdür.",
+    "image": "hard_rock_mine.png"
+  },
+  {
+    "name": "Double Swoosh",
+    "mode": "Gem Grab",
+    "best_brawlers": ["Gene", "Tara", "Bo"],
+    "description": "Yanlardan dönen yollar ve çok çalı. Mid ve side koordinasyonu önemli.",
+    "image": "double_swoosh.png"
+  },
+  {
+    "name": "Safe Zone",
+    "mode": "Heist",
+    "best_brawlers": ["Chuck", "Angelo", "Crow"],
+    "description": "Uzun koridorlar ve açık alan. Uzak menzil hasar kasmak için ideal.",
+    "image": "safe_zone.jpg"
+  },
+  {
+    "name": "Parallel Plays",
+    "mode": "Hot Zone",
+    "best_brawlers": ["Juju", "Ruffs", "Hank"],
+    "description": "İki alan da ortaya yakın. Hem defans hem saldırı çok hızlı değişir.",
+    "image": "parallel_plays.png"
+  },
+
+  {
+    "name": "Goldarm Gulch",
+    "mode": "Knockout",
+    "best_brawlers": ["Juju", "Jae-Yong", "Gus"],
+    "description": "Çalılıklı dar alanlar, pozisyon hatası yapan direkt elenebilir.",
+    "image": "goldarm_gulch.png"
+  },
+  {
+    "name": "Belle's Rock",
+    "mode": "Knockout",
+    "best_brawlers": ["Angelo", "Gray", "Gene"],
+    "description": "Ortası açık, yanları çalılık. İlk pick avantajı çok önemli.",
+    "image": "belles_rock.png"
+  },
+  {
+    "name": "layer Cake",
+    "mode": "Bounty",
+    "best_brawlers": ["Gene", "Kaze", "Meeple"],
+    "description": "katmanlı bir harita, baskı yememek önemli.",
+    "image": "layer_cake.png"
+  },
+  {
+    "name": "Dry Season",
+    "mode": "Bounty",
+    "best_brawlers": ["Gene", "Meeple", "Jae-Yong"],
+    "description": "Mapde en önemli şey baskı, oyun sonu çok önemli.",
+    "image": "dry_season.png"
+  },
+  {
+    "name": "Triple Drible",
+    "mode": "Brawl Ball",
+    "best_brawlers": ["Mina", "Moe", "Ruffs"],
+    "description": "herhangi bir golden sonra gol atmak önemli.",
+    "image": "triple_dribble.png"
+  },
+  {
+    "name": "Center Stage",
+    "mode": "Brawl Ball",
+    "best_brawlers": ["Mina", "Crow", "Max"],
+    "description": "Çalı bol olduğu için görüş önemli.",
+    "image": "center_stage.png"
+  },{
+    "name": "Pinball Dreams",
+    "mode": "Brawl Ball",
+    "best_brawlers": ["Willow", "Mina", "Otis"],
+    "description": "Orta kontrolü ve duvar yıkma çok önemli.",
+    "image": "pinball_dreams.png"
+  },
+  {
+    "name": "Bridge Too Far",
+    "mode": "Heist",
+    "best_brawlers": ["Chuck", "Angelo", "Bonnie"],
+    "description": "Uzun ve açık alan. Uzak menzil hasar kasmak için ideal.",
+    "image": "bridge_too_far.png"
+  },
+  {
+    "name": "Hot Potato",
+    "mode": "Heist",
+    "best_brawlers": ["Chuck", "Nita", "Kaze"],
+    "description": "Bol çalılı saklanmalı alanı olan bir harita.",
+    "image": "hot_potato.png"
+  },
+  {
+    "name": "Kaboom Canyon",
+    "mode": "Heist",
+    "best_brawlers": ["Chuck", "Angelo", "Kaze"],
+    "description": "Bol çalılı saklanmalı alanı olan bir harita.",
+    "image": "hot_potato.png"
+  },
+  {
+    "name": "Open Business",
+    "mode": "Hot Zone",
+    "best_brawlers": ["Juju", "Ruffs", "Hank"],
+    "description": "Orta kontrolü çok önemli, bir defa alan verilince geri alınamsı zor.",
+    "image": "open_business.png"
+  },
+  {
+    "name": "Flaring Phoenix",
+    "mode": "Knockout",
+    "best_brawlers": ["Gene", "Buster", "Gus"],
+    "description": "Kontrol çok önemli, oyun sonu herşeyi belirler.",
+    "image": "flaring_phoenix.png"
+  },
+  {
+    "name": "New Horizons",
+    "mode": "Knockout",
+    "best_brawlers": ["Gene", "Squeak", "Gus"],
+    "description": "Kontrol çok önemli, oyun sonu herşeyi belirler.",
+    "image": "new_horizons.png"
+  },
+  {
+    "name": "Out in the Open",
+    "mode": "Knockout",
+    "best_brawlers": ["Gene", "Angelo", "Brock"],
+    "description": "Oyun sonu herşeyi belirler, duvar kırma önemli",
+    "image": "out_in_the_open.png"
+  },
+  {
+    "name": "Acid Lakes",
+    "mode": "Showdown",
+    "best_brawlers": ["Mina", "Cordelius", "Alli"],
+    "description": "Ortasında büyük bir göl ile korunan bolca yük olan bir harita",
+    "image": "acid_lakes.png"
+  },
+  {
+    "name": "Skull Creek",
+    "mode": "Showdown",
+    "best_brawlers": ["Kit", "Cordelius", "Lily"],
+    "description": "Ortasında duvarlarla ile korunan bolca yük olan bir harita",
+    "image": "skull_creek.png"
+  },
+  {
+    "name": "Safesty Center",
+    "mode": "Showdown",
+    "best_brawlers": ["Shelly", "Cordelius", "Lily"],
+    "description": "Uzak ve orta menzilli karakterlerin oynayabileceği bir map",
+    "image": "safesty_center.png"
+  },
+  {
+    "name": "Flying Fantasies",
+    "mode": "Showdown",
+    "best_brawlers": ["Angelo", "Piper", "Crow"],
+    "description": "Genellikle uzak menzilli karakterlerin olduğu uçmalı kaçmalı bir harita",
+    "image": "flying_fantasies.png"
+  },
+  {
+    "name": "Feast or Famine",
+    "mode": "Showdown",
+    "best_brawlers": ["Doug", "Bull", "Shelly"],
+    "description": "Çalılarla kaplı ortası olan bol yüklü yakın menzil haritası",
+    "image": "feast_or_famine.png"
+  },
+  { 
+    "name": "Cavern Churn",
+    "mode": "Showdown",
+    "best_brawlers": ["Bo", "Bull", "Shelly"],
+    "description": "Çalılarla kaplı ortası olan bol yüklü yakın menzil haritası",
+    "image": "cavern_churn.png"
+  },
+  {
+    "name": "Rockwall Brawl",
+    "mode": "Showdown",
+    "best_brawlers": ["Cordelius", "Surge", "Shelly"],
+    "description": "Çalılarla kaplı ortası olan bol yüklü yakın menzil haritası",
+    "image": "cavern_churn.png"
+  }
+]

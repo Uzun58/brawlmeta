@@ -417,3 +417,109 @@ body {
     border: 1px solid #ddd !important;
     color: #111 !important;
 }
+/* ============ MOBİL DÜZEN (tablet + telefon) ============ */
+@media (max-width: 768px) {
+
+    /* Gövde / genel padding */
+    .page-main {
+        max-width: 100%;
+        margin: 16px auto 40px;
+        padding: 0 12px 24px;
+    }
+
+    /* NAVBAR */
+    .navbar {
+        max-width: 100%;
+        padding: 8px 12px;
+    }
+
+    .navbar-logo {
+        height: 32px;  /* biraz küçült */
+    }
+
+    .navbar-links {
+        gap: 12px;
+    }
+
+    .navbar-links a {
+        font-size: 13px;
+        padding: 4px 0;
+    }
+
+    /* Ana sayfa hero */
+    .home-hero {
+        flex-direction: column;   /* yanyana değil alt alta */
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .home-hero-text,
+    .home-hero-box {
+        flex: 1 1 auto;
+    }
+
+    /* Stats / hızlı başla kartları tek sütun */
+    .home-stats,
+    .home-quick-grid {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+        margin-top: 2rem;
+    }
+
+    /* Map ve brawler grid’leri tek sütun */
+    .map-grid,
+    .brawler-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .map-card,
+    .brawler-card {
+        margin: 0;
+    }
+
+    /* Harita resmi telefonda daha kontrollü olsun */
+    .map-img {
+        max-height: 260px;
+        object-fit: contain;
+    }
+
+    /* Brawler kart içi biraz daha rahat */
+    .brawler-card {
+        padding: 14px;
+    }
+
+    .brawler-card img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 8px;
+    }
+
+    /* Mod filtre butonları taşmasın, alt satıra geçebilsin */
+    .mode-badges {
+        flex-wrap: wrap;
+        row-gap: 8px;
+    }
+}
+
+/* ============ ÇOK KÜÇÜK EKRANLAR (dar telefonlar) ============ */
+@media (max-width: 480px) {
+    .page-title {
+        font-size: 22px;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .home-hero-buttons {
+        flex-direction: column;
+        gap: 0.6rem;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+        text-align: center;
+    }
+}

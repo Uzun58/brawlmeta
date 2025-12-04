@@ -523,3 +523,100 @@ body {
         text-align: center;
     }
 }
+/* 1) Tablet ve küçük laptoplar (2 sütun) */
+@media (max-width: 1024px) {
+    /* Ana içerik kenarlardan daha az boşluk alsın */
+    .page-main {
+        padding: 24px 16px;
+    }
+
+    /* Harita ve brawler kartlarını 2 sütuna düşür */
+    .map-grid,
+    .brawler-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+    }
+}
+
+/* 2) Telefon (tek sütun, her şey daha büyük ve rahat) */
+@media (max-width: 768px) {
+
+    body {
+        font-size: 15px;
+    }
+
+    .page-main {
+        padding: 16px 12px 40px;
+    }
+
+    /* Navbar daha sıkışık ve tek satır */
+    .navbar {
+        padding: 8px 12px;
+    }
+
+    .navbar-brand {
+        margin-right: 8px;
+    }
+
+    .navbar-logo {
+        width: 32px;
+        height: auto;
+    }
+
+    .navbar-links {
+        gap: 12px;
+    }
+
+    .navbar-links a {
+        font-size: 14px;
+        padding: 4px 0;
+    }
+
+    /* Hero kısmı alt alta gelsin */
+    .home-hero {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .home-hero-text h1 {
+        font-size: 22px;
+    }
+
+    .home-hero-text p {
+        font-size: 14px;
+    }
+
+    /* Ana sayfadaki küçük kartlar (hızlı başla vs.) tek sütun olsun */
+    .home-stats,
+    .home-quick {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .home-stat-card,
+    .home-quick-card {
+        width: 100%;
+    }
+
+    /* Harita ve brawler kartlarını TAM tek sütun yap */
+    .map-grid,
+    .brawler-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .map-card,
+    .brawler-card {
+        margin: 0;
+    }
+
+    /* Kart içi yazıları biraz büyüt */
+    .map-card-title,
+    .brawler-name {
+        font-size: 18px;
+    }
+}
